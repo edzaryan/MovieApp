@@ -21,11 +21,11 @@ Access and manage registered users' data. Grant admin privileges to users.
 
 ## Frameworks and libraries: 
 React.js
-Leaflet (for interactive maps)
-Axios (for API requests)
-Bootstrap (for styling)
-Formik & Yup (for form handling and validation)
-Sweetalert2 (for alerts)
-TypeScript (for strong typing)
-React-Markdown (for markdown support)
-React-Router-Dom (for routing)
+Leaflet
+Axios
+TailwindCSS
+Formik & Yup 
+Sweetalert2
+TypeScript
+React-Markdown 
+React-Router-Dom

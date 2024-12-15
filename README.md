@@ -20,12 +20,4 @@ Use the 'record per page' option to select dashboard size.
 Access and manage registered users' data. Grant admin privileges to users.
 
 ## Frameworks and libraries: 
-React.js
-Leaflet
-Axios
-TailwindCSS
-Formik & Yup 
-Sweetalert2
-TypeScript
-React-Markdown 
-React-Router-Dom
+React.js, Leaflet, Axios, Tailwind CSS, Formik & Yup, Sweetalert2, TypeScript, React-Markdown, React-Router-Dom

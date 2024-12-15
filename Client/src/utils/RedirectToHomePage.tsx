@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
-const RedirectToHomePage: React.FC = () => {
-  const navigate = useNavigate();
+const RedirectToHomePage = () => {
+    const navigate = useNavigate();
 
-  useEffect(() => {
-    navigate('/');
-  }, [navigate]);
+    useEffect(() => {
+        navigate("/");
+    }, [navigate]);
 
-  return null; 
+    return null;
 };
 
 export default RedirectToHomePage;

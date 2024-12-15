@@ -1,21 +1,16 @@
+import React from "react";
 
-interface displayErrorsProps {
+interface DisplayErrorsProps {
     errors?: string[];
 }
 
-export default function DisplayErrors(props: displayErrorsProps) {
-    const style = { color: 'red' };
+const DisplayErrors: React.FC<DisplayErrorsProps> = ({ errors }) =>
+    errors?.length ? (
+        <ul className="list-disc pl-5">
+            {errors.map((error, index) => (
+                <li className="text-red-500" key={index}>{error}</li>
+            ))}
+        </ul>
+    ) : null;
 
-    return (
-        <>
-            { props.errors ?
-                    <ul style={style}>
-                        {
-                            props.errors.map((error, index) => (<li key={index}>{error}</li>))
-                        }
-                    </ul> : null
-            }
-        </>
-    )
-}
-
+export default DisplayErrors;

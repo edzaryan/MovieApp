@@ -1,0 +1,1979 @@
+{
+  "Version": 1,
+  "Hash": "wShBf3L9TZ/OZkJdPF5B3kcD8giETdSsQDXfkwuK9gY=",
+  "Source": "MovieAppApi",
+  "BasePath": "_content/MovieAppApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MovieAppApi\\wwwroot",
+      "Source": "MovieAppApi",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\27d69a3c-1910-4f37-8ae4-0cd09430849d.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "actors/27d69a3c-1910-4f37-8ae4-0cd09430849d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jjl213ickb",
+      "Integrity": "cXnKZZgSOff51izNFyEeYKU0V3o6ZIhxVm+o4tCpzXA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actors\\27d69a3c-1910-4f37-8ae4-0cd09430849d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\30fcf121-fa02-459a-a79b-1744a641a70e.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "actors/30fcf121-fa02-459a-a79b-1744a641a70e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mtkp3dkhgu",
+      "Integrity": "VhNPhMX1foDRK0vkkEzNnEvd2r8UssUynQXgAz6ynxE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actors\\30fcf121-fa02-459a-a79b-1744a641a70e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\8941f1c1-d837-46e8-a677-90905699af2d.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "actors/8941f1c1-d837-46e8-a677-90905699af2d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9rri9sdzon",
+      "Integrity": "+3mncqikAmqcRXxYv3vKlDbkM4ZBISRLtZMjQ6BaFI4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actors\\8941f1c1-d837-46e8-a677-90905699af2d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\ea7a6724-5f01-4b19-8605-10c04a5f8271.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "actors/ea7a6724-5f01-4b19-8605-10c04a5f8271#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hapd73z74o",
+      "Integrity": "t/t7aXT507mmgiwcStr1x4wC+jt2IG209PTAizU1/wY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actors\\ea7a6724-5f01-4b19-8605-10c04a5f8271.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\052d47f8-ceee-4f4d-ba54-1bfdc8795281.png",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/052d47f8-ceee-4f4d-ba54-1bfdc8795281#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pons9324tb",
+      "Integrity": "F+RkMviuPBWAhQvI+wMfcozVb/bg5+e/l5dIOBxgJiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\052d47f8-ceee-4f4d-ba54-1bfdc8795281.png"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lru9jejilh",
+      "Integrity": "AZ9K9HrzWUJh1mGFXzoLTHO/8rokk1o9Zpn8/vtzvvE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\1956f7c9-0b0e-43a5-aa79-bf92758a5841.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/1956f7c9-0b0e-43a5-aa79-bf92758a5841#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4lq2yt1c9e",
+      "Integrity": "GPlYvl4YeWFTsdVW4kOwlZQtm7ay8OyTMONHpmXZfMs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\1956f7c9-0b0e-43a5-aa79-bf92758a5841.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\33f9948c-c8c6-47a7-9523-ba81a6d616fd.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/33f9948c-c8c6-47a7-9523-ba81a6d616fd#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zuvf1trae2",
+      "Integrity": "C7S0+JMkMyAO9XGFcDmxacg6/SVbxB/k+Y4RHzLxXxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\33f9948c-c8c6-47a7-9523-ba81a6d616fd.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\3cf6b3e1-28a2-49ca-8fc1-d76556b599a7.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/3cf6b3e1-28a2-49ca-8fc1-d76556b599a7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xz8sd1xbee",
+      "Integrity": "c0JwvrTLFGjizWAeVCmp0cmKWE/fFjyHLfLED4nF+n8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\3cf6b3e1-28a2-49ca-8fc1-d76556b599a7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\4e2913fd-3b12-483a-a9de-119977c1f1e4.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/4e2913fd-3b12-483a-a9de-119977c1f1e4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "at83ssdmk0",
+      "Integrity": "Xisr9QmN22hyLrg1H52ppGpjwknwvVZZFx7saXtWhEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\4e2913fd-3b12-483a-a9de-119977c1f1e4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\4f49953b-8265-42a5-bcc7-d9d7ae6d55d9.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/4f49953b-8265-42a5-bcc7-d9d7ae6d55d9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fo69kxzxqp",
+      "Integrity": "D7KZ7oxscyFJPPKH4Uo/30wdFyOsbVQ6WEYmbLo9xSs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\4f49953b-8265-42a5-bcc7-d9d7ae6d55d9.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\5451c999-6fde-48b5-aa02-c802dd31f0ca.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/5451c999-6fde-48b5-aa02-c802dd31f0ca#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fz3xc84952",
+      "Integrity": "lUHmZu+bTnvM5K3zNIeztd3lUrWi8NHUX/5lNhS2p3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\5451c999-6fde-48b5-aa02-c802dd31f0ca.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\58ad5c42-61b2-455f-a359-11aa552a0d4d.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/58ad5c42-61b2-455f-a359-11aa552a0d4d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e2sdqh9oqu",
+      "Integrity": "qmJn0lPLzL+u9gwnjaZGPVHmRbInSuL0+gj7GD5DpNo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\58ad5c42-61b2-455f-a359-11aa552a0d4d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\60af0c72-8eb2-4846-85ff-0b805cd4a8c3.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/60af0c72-8eb2-4846-85ff-0b805cd4a8c3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w9oztc6mek",
+      "Integrity": "pDJSGqC5+QQJc9IcSyNVjfhIes3XtcGNctI5b+8FKgU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\60af0c72-8eb2-4846-85ff-0b805cd4a8c3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\614344c5-9d38-420a-8f90-5b7243be97b0.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/614344c5-9d38-420a-8f90-5b7243be97b0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "geaxuhacnb",
+      "Integrity": "6BQCjUk+c/RRvVZQ+ZtuNKkvf9b7VyC0VTDnnzZ/A4E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\614344c5-9d38-420a-8f90-5b7243be97b0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\84450c09-d68f-4347-9bcf-43e650057de7.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/84450c09-d68f-4347-9bcf-43e650057de7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0aaurm99l2",
+      "Integrity": "iHJocFrt5TZD0pC0HQoJ7DCINnVb4/4OcByKvOlWksw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\84450c09-d68f-4347-9bcf-43e650057de7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\c152100d-86b6-4a01-acea-30dbbc789d15.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/c152100d-86b6-4a01-acea-30dbbc789d15#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gs3xvghn5e",
+      "Integrity": "kN++IiSWxwSL+tsaTcFPf90kti2kYLqXrX4LZWp/hsQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\c152100d-86b6-4a01-acea-30dbbc789d15.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\e5c4475b-00ea-4c1f-88d9-0baf57463491.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/e5c4475b-00ea-4c1f-88d9-0baf57463491#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k51eyeripu",
+      "Integrity": "WIdO7Cvn261TUa/4LRK7e1nAxu4Wu8E1H7177xNPu7A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\e5c4475b-00ea-4c1f-88d9-0baf57463491.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\e7cbb8ae-519b-4a38-9093-5e549a36ac5f.jpg",
+      "SourceId": "MovieAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\",
+      "BasePath": "_content/MovieAppApi",
+      "RelativePath": "movies/e7cbb8ae-519b-4a38-9093-5e549a36ac5f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0hsjdcv5sv",
+      "Integrity": "HNxSjXbXhqjjrXZPR/XMVb4nGk45vQ3ya6AFAcnDc3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\movies\\e7cbb8ae-519b-4a38-9093-5e549a36ac5f.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "actors/27d69a3c-1910-4f37-8ae4-0cd09430849d.jjl213ickb.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\27d69a3c-1910-4f37-8ae4-0cd09430849d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cXnKZZgSOff51izNFyEeYKU0V3o6ZIhxVm+o4tCpzXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:06:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjl213ickb"
+        },
+        {
+          "Name": "label",
+          "Value": "actors/27d69a3c-1910-4f37-8ae4-0cd09430849d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cXnKZZgSOff51izNFyEeYKU0V3o6ZIhxVm+o4tCpzXA="
+        }
+      ]
+    },
+    {
+      "Route": "actors/27d69a3c-1910-4f37-8ae4-0cd09430849d.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\27d69a3c-1910-4f37-8ae4-0cd09430849d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cXnKZZgSOff51izNFyEeYKU0V3o6ZIhxVm+o4tCpzXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:06:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cXnKZZgSOff51izNFyEeYKU0V3o6ZIhxVm+o4tCpzXA="
+        }
+      ]
+    },
+    {
+      "Route": "actors/30fcf121-fa02-459a-a79b-1744a641a70e.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\30fcf121-fa02-459a-a79b-1744a641a70e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VhNPhMX1foDRK0vkkEzNnEvd2r8UssUynQXgAz6ynxE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:08:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VhNPhMX1foDRK0vkkEzNnEvd2r8UssUynQXgAz6ynxE="
+        }
+      ]
+    },
+    {
+      "Route": "actors/30fcf121-fa02-459a-a79b-1744a641a70e.mtkp3dkhgu.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\30fcf121-fa02-459a-a79b-1744a641a70e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VhNPhMX1foDRK0vkkEzNnEvd2r8UssUynQXgAz6ynxE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:08:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mtkp3dkhgu"
+        },
+        {
+          "Name": "label",
+          "Value": "actors/30fcf121-fa02-459a-a79b-1744a641a70e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VhNPhMX1foDRK0vkkEzNnEvd2r8UssUynQXgAz6ynxE="
+        }
+      ]
+    },
+    {
+      "Route": "actors/8941f1c1-d837-46e8-a677-90905699af2d.9rri9sdzon.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\8941f1c1-d837-46e8-a677-90905699af2d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+3mncqikAmqcRXxYv3vKlDbkM4ZBISRLtZMjQ6BaFI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 02:01:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9rri9sdzon"
+        },
+        {
+          "Name": "label",
+          "Value": "actors/8941f1c1-d837-46e8-a677-90905699af2d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+3mncqikAmqcRXxYv3vKlDbkM4ZBISRLtZMjQ6BaFI4="
+        }
+      ]
+    },
+    {
+      "Route": "actors/8941f1c1-d837-46e8-a677-90905699af2d.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\8941f1c1-d837-46e8-a677-90905699af2d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+3mncqikAmqcRXxYv3vKlDbkM4ZBISRLtZMjQ6BaFI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 02:01:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+3mncqikAmqcRXxYv3vKlDbkM4ZBISRLtZMjQ6BaFI4="
+        }
+      ]
+    },
+    {
+      "Route": "actors/ea7a6724-5f01-4b19-8605-10c04a5f8271.hapd73z74o.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\ea7a6724-5f01-4b19-8605-10c04a5f8271.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t/t7aXT507mmgiwcStr1x4wC+jt2IG209PTAizU1/wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:05:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hapd73z74o"
+        },
+        {
+          "Name": "label",
+          "Value": "actors/ea7a6724-5f01-4b19-8605-10c04a5f8271.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t/t7aXT507mmgiwcStr1x4wC+jt2IG209PTAizU1/wY="
+        }
+      ]
+    },
+    {
+      "Route": "actors/ea7a6724-5f01-4b19-8605-10c04a5f8271.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\ea7a6724-5f01-4b19-8605-10c04a5f8271.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t/t7aXT507mmgiwcStr1x4wC+jt2IG209PTAizU1/wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:05:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t/t7aXT507mmgiwcStr1x4wC+jt2IG209PTAizU1/wY="
+        }
+      ]
+    },
+    {
+      "Route": "movies/052d47f8-ceee-4f4d-ba54-1bfdc8795281.png",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\052d47f8-ceee-4f4d-ba54-1bfdc8795281.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F+RkMviuPBWAhQvI+wMfcozVb/bg5+e/l5dIOBxgJiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:21:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F+RkMviuPBWAhQvI+wMfcozVb/bg5+e/l5dIOBxgJiE="
+        }
+      ]
+    },
+    {
+      "Route": "movies/052d47f8-ceee-4f4d-ba54-1bfdc8795281.pons9324tb.png",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\052d47f8-ceee-4f4d-ba54-1bfdc8795281.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F+RkMviuPBWAhQvI+wMfcozVb/bg5+e/l5dIOBxgJiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:21:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pons9324tb"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/052d47f8-ceee-4f4d-ba54-1bfdc8795281.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F+RkMviuPBWAhQvI+wMfcozVb/bg5+e/l5dIOBxgJiE="
+        }
+      ]
+    },
+    {
+      "Route": "movies/09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZ9K9HrzWUJh1mGFXzoLTHO/8rokk1o9Zpn8/vtzvvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:12:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZ9K9HrzWUJh1mGFXzoLTHO/8rokk1o9Zpn8/vtzvvE="
+        }
+      ]
+    },
+    {
+      "Route": "movies/09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e.lru9jejilh.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZ9K9HrzWUJh1mGFXzoLTHO/8rokk1o9Zpn8/vtzvvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:12:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lru9jejilh"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZ9K9HrzWUJh1mGFXzoLTHO/8rokk1o9Zpn8/vtzvvE="
+        }
+      ]
+    },
+    {
+      "Route": "movies/1956f7c9-0b0e-43a5-aa79-bf92758a5841.4lq2yt1c9e.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\1956f7c9-0b0e-43a5-aa79-bf92758a5841.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GPlYvl4YeWFTsdVW4kOwlZQtm7ay8OyTMONHpmXZfMs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:18:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4lq2yt1c9e"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/1956f7c9-0b0e-43a5-aa79-bf92758a5841.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GPlYvl4YeWFTsdVW4kOwlZQtm7ay8OyTMONHpmXZfMs="
+        }
+      ]
+    },
+    {
+      "Route": "movies/1956f7c9-0b0e-43a5-aa79-bf92758a5841.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\1956f7c9-0b0e-43a5-aa79-bf92758a5841.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GPlYvl4YeWFTsdVW4kOwlZQtm7ay8OyTMONHpmXZfMs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:18:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GPlYvl4YeWFTsdVW4kOwlZQtm7ay8OyTMONHpmXZfMs="
+        }
+      ]
+    },
+    {
+      "Route": "movies/33f9948c-c8c6-47a7-9523-ba81a6d616fd.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\33f9948c-c8c6-47a7-9523-ba81a6d616fd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20441"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C7S0+JMkMyAO9XGFcDmxacg6/SVbxB/k+Y4RHzLxXxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C7S0+JMkMyAO9XGFcDmxacg6/SVbxB/k+Y4RHzLxXxk="
+        }
+      ]
+    },
+    {
+      "Route": "movies/33f9948c-c8c6-47a7-9523-ba81a6d616fd.zuvf1trae2.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\33f9948c-c8c6-47a7-9523-ba81a6d616fd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20441"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C7S0+JMkMyAO9XGFcDmxacg6/SVbxB/k+Y4RHzLxXxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zuvf1trae2"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/33f9948c-c8c6-47a7-9523-ba81a6d616fd.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C7S0+JMkMyAO9XGFcDmxacg6/SVbxB/k+Y4RHzLxXxk="
+        }
+      ]
+    },
+    {
+      "Route": "movies/3cf6b3e1-28a2-49ca-8fc1-d76556b599a7.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\3cf6b3e1-28a2-49ca-8fc1-d76556b599a7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0JwvrTLFGjizWAeVCmp0cmKWE/fFjyHLfLED4nF+n8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 15:02:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0JwvrTLFGjizWAeVCmp0cmKWE/fFjyHLfLED4nF+n8="
+        }
+      ]
+    },
+    {
+      "Route": "movies/3cf6b3e1-28a2-49ca-8fc1-d76556b599a7.xz8sd1xbee.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\3cf6b3e1-28a2-49ca-8fc1-d76556b599a7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0JwvrTLFGjizWAeVCmp0cmKWE/fFjyHLfLED4nF+n8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 15:02:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xz8sd1xbee"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/3cf6b3e1-28a2-49ca-8fc1-d76556b599a7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0JwvrTLFGjizWAeVCmp0cmKWE/fFjyHLfLED4nF+n8="
+        }
+      ]
+    },
+    {
+      "Route": "movies/4e2913fd-3b12-483a-a9de-119977c1f1e4.at83ssdmk0.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\4e2913fd-3b12-483a-a9de-119977c1f1e4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xisr9QmN22hyLrg1H52ppGpjwknwvVZZFx7saXtWhEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 15:13:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "at83ssdmk0"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/4e2913fd-3b12-483a-a9de-119977c1f1e4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xisr9QmN22hyLrg1H52ppGpjwknwvVZZFx7saXtWhEw="
+        }
+      ]
+    },
+    {
+      "Route": "movies/4e2913fd-3b12-483a-a9de-119977c1f1e4.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\4e2913fd-3b12-483a-a9de-119977c1f1e4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xisr9QmN22hyLrg1H52ppGpjwknwvVZZFx7saXtWhEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 15:13:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xisr9QmN22hyLrg1H52ppGpjwknwvVZZFx7saXtWhEw="
+        }
+      ]
+    },
+    {
+      "Route": "movies/4f49953b-8265-42a5-bcc7-d9d7ae6d55d9.fo69kxzxqp.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\4f49953b-8265-42a5-bcc7-d9d7ae6d55d9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D7KZ7oxscyFJPPKH4Uo/30wdFyOsbVQ6WEYmbLo9xSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:11:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fo69kxzxqp"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/4f49953b-8265-42a5-bcc7-d9d7ae6d55d9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D7KZ7oxscyFJPPKH4Uo/30wdFyOsbVQ6WEYmbLo9xSs="
+        }
+      ]
+    },
+    {
+      "Route": "movies/4f49953b-8265-42a5-bcc7-d9d7ae6d55d9.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\4f49953b-8265-42a5-bcc7-d9d7ae6d55d9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D7KZ7oxscyFJPPKH4Uo/30wdFyOsbVQ6WEYmbLo9xSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:11:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D7KZ7oxscyFJPPKH4Uo/30wdFyOsbVQ6WEYmbLo9xSs="
+        }
+      ]
+    },
+    {
+      "Route": "movies/5451c999-6fde-48b5-aa02-c802dd31f0ca.fz3xc84952.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\5451c999-6fde-48b5-aa02-c802dd31f0ca.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lUHmZu+bTnvM5K3zNIeztd3lUrWi8NHUX/5lNhS2p3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:04:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fz3xc84952"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/5451c999-6fde-48b5-aa02-c802dd31f0ca.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lUHmZu+bTnvM5K3zNIeztd3lUrWi8NHUX/5lNhS2p3E="
+        }
+      ]
+    },
+    {
+      "Route": "movies/5451c999-6fde-48b5-aa02-c802dd31f0ca.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\5451c999-6fde-48b5-aa02-c802dd31f0ca.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lUHmZu+bTnvM5K3zNIeztd3lUrWi8NHUX/5lNhS2p3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:04:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lUHmZu+bTnvM5K3zNIeztd3lUrWi8NHUX/5lNhS2p3E="
+        }
+      ]
+    },
+    {
+      "Route": "movies/58ad5c42-61b2-455f-a359-11aa552a0d4d.e2sdqh9oqu.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\58ad5c42-61b2-455f-a359-11aa552a0d4d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qmJn0lPLzL+u9gwnjaZGPVHmRbInSuL0+gj7GD5DpNo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:01:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e2sdqh9oqu"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/58ad5c42-61b2-455f-a359-11aa552a0d4d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qmJn0lPLzL+u9gwnjaZGPVHmRbInSuL0+gj7GD5DpNo="
+        }
+      ]
+    },
+    {
+      "Route": "movies/58ad5c42-61b2-455f-a359-11aa552a0d4d.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\58ad5c42-61b2-455f-a359-11aa552a0d4d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qmJn0lPLzL+u9gwnjaZGPVHmRbInSuL0+gj7GD5DpNo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:01:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qmJn0lPLzL+u9gwnjaZGPVHmRbInSuL0+gj7GD5DpNo="
+        }
+      ]
+    },
+    {
+      "Route": "movies/60af0c72-8eb2-4846-85ff-0b805cd4a8c3.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\60af0c72-8eb2-4846-85ff-0b805cd4a8c3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "754566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pDJSGqC5+QQJc9IcSyNVjfhIes3XtcGNctI5b+8FKgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:53:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pDJSGqC5+QQJc9IcSyNVjfhIes3XtcGNctI5b+8FKgU="
+        }
+      ]
+    },
+    {
+      "Route": "movies/60af0c72-8eb2-4846-85ff-0b805cd4a8c3.w9oztc6mek.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\60af0c72-8eb2-4846-85ff-0b805cd4a8c3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "754566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pDJSGqC5+QQJc9IcSyNVjfhIes3XtcGNctI5b+8FKgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:53:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w9oztc6mek"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/60af0c72-8eb2-4846-85ff-0b805cd4a8c3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pDJSGqC5+QQJc9IcSyNVjfhIes3XtcGNctI5b+8FKgU="
+        }
+      ]
+    },
+    {
+      "Route": "movies/614344c5-9d38-420a-8f90-5b7243be97b0.geaxuhacnb.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\614344c5-9d38-420a-8f90-5b7243be97b0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6BQCjUk+c/RRvVZQ+ZtuNKkvf9b7VyC0VTDnnzZ/A4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 15:17:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "geaxuhacnb"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/614344c5-9d38-420a-8f90-5b7243be97b0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6BQCjUk+c/RRvVZQ+ZtuNKkvf9b7VyC0VTDnnzZ/A4E="
+        }
+      ]
+    },
+    {
+      "Route": "movies/614344c5-9d38-420a-8f90-5b7243be97b0.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\614344c5-9d38-420a-8f90-5b7243be97b0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6BQCjUk+c/RRvVZQ+ZtuNKkvf9b7VyC0VTDnnzZ/A4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 15:17:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6BQCjUk+c/RRvVZQ+ZtuNKkvf9b7VyC0VTDnnzZ/A4E="
+        }
+      ]
+    },
+    {
+      "Route": "movies/84450c09-d68f-4347-9bcf-43e650057de7.0aaurm99l2.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\84450c09-d68f-4347-9bcf-43e650057de7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iHJocFrt5TZD0pC0HQoJ7DCINnVb4/4OcByKvOlWksw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 12:09:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0aaurm99l2"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/84450c09-d68f-4347-9bcf-43e650057de7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iHJocFrt5TZD0pC0HQoJ7DCINnVb4/4OcByKvOlWksw="
+        }
+      ]
+    },
+    {
+      "Route": "movies/84450c09-d68f-4347-9bcf-43e650057de7.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\84450c09-d68f-4347-9bcf-43e650057de7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iHJocFrt5TZD0pC0HQoJ7DCINnVb4/4OcByKvOlWksw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 12:09:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iHJocFrt5TZD0pC0HQoJ7DCINnVb4/4OcByKvOlWksw="
+        }
+      ]
+    },
+    {
+      "Route": "movies/c152100d-86b6-4a01-acea-30dbbc789d15.gs3xvghn5e.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\c152100d-86b6-4a01-acea-30dbbc789d15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kN++IiSWxwSL+tsaTcFPf90kti2kYLqXrX4LZWp/hsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:08:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gs3xvghn5e"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/c152100d-86b6-4a01-acea-30dbbc789d15.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kN++IiSWxwSL+tsaTcFPf90kti2kYLqXrX4LZWp/hsQ="
+        }
+      ]
+    },
+    {
+      "Route": "movies/c152100d-86b6-4a01-acea-30dbbc789d15.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\c152100d-86b6-4a01-acea-30dbbc789d15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kN++IiSWxwSL+tsaTcFPf90kti2kYLqXrX4LZWp/hsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:08:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kN++IiSWxwSL+tsaTcFPf90kti2kYLqXrX4LZWp/hsQ="
+        }
+      ]
+    },
+    {
+      "Route": "movies/e5c4475b-00ea-4c1f-88d9-0baf57463491.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\e5c4475b-00ea-4c1f-88d9-0baf57463491.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WIdO7Cvn261TUa/4LRK7e1nAxu4Wu8E1H7177xNPu7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:55:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WIdO7Cvn261TUa/4LRK7e1nAxu4Wu8E1H7177xNPu7A="
+        }
+      ]
+    },
+    {
+      "Route": "movies/e5c4475b-00ea-4c1f-88d9-0baf57463491.k51eyeripu.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\e5c4475b-00ea-4c1f-88d9-0baf57463491.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WIdO7Cvn261TUa/4LRK7e1nAxu4Wu8E1H7177xNPu7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 14:55:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k51eyeripu"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/e5c4475b-00ea-4c1f-88d9-0baf57463491.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WIdO7Cvn261TUa/4LRK7e1nAxu4Wu8E1H7177xNPu7A="
+        }
+      ]
+    },
+    {
+      "Route": "movies/e7cbb8ae-519b-4a38-9093-5e549a36ac5f.0hsjdcv5sv.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\e7cbb8ae-519b-4a38-9093-5e549a36ac5f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HNxSjXbXhqjjrXZPR/XMVb4nGk45vQ3ya6AFAcnDc3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 09:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0hsjdcv5sv"
+        },
+        {
+          "Name": "label",
+          "Value": "movies/e7cbb8ae-519b-4a38-9093-5e549a36ac5f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HNxSjXbXhqjjrXZPR/XMVb4nGk45vQ3ya6AFAcnDc3E="
+        }
+      ]
+    },
+    {
+      "Route": "movies/e7cbb8ae-519b-4a38-9093-5e549a36ac5f.jpg",
+      "AssetFile": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\e7cbb8ae-519b-4a38-9093-5e549a36ac5f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HNxSjXbXhqjjrXZPR/XMVb4nGk45vQ3ya6AFAcnDc3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 09:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HNxSjXbXhqjjrXZPR/XMVb4nGk45vQ3ya6AFAcnDc3E="
+        }
+      ]
+    }
+  ]
+}

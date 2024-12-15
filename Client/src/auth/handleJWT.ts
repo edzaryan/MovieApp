@@ -40,4 +40,3 @@ export function logout(){
 export function getToken(){
     return localStorage.getItem(tokenKey);
 }
-

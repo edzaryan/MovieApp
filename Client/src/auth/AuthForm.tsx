@@ -1,35 +1,44 @@
-import {userCredentials} from './auth.models'
-import {Form, Formik, FormikHelpers} from 'formik';
-import * as Yup from 'yup';
+import React from "react";
+import { userCredentials } from "./auth.models";
+import Link from "../components/Link";
+import { Form, Formik, FormikHelpers } from "formik";
+import * as Yup from "yup";
+import TextField from "../components/Form/TextField";
+import Button from "../components/Button";
 
-import Button from '../utils/Button';
-import { Link } from 'react-router-dom';
-import TextField from "../utils/TextField";
 
-export default function AuthForm(props: authFormProps){
+interface authFormProps {
+    model: userCredentials;
+    onSubmit(values: userCredentials, actions: FormikHelpers<userCredentials>): void;
+    buttonText: string;
+}
+
+const AuthForm: React.FC<authFormProps> = ({ model, onSubmit, buttonText }) => {
     return (
         <Formik
-            initialValues={props.model}
-            onSubmit={props.onSubmit}
+            initialValues={model}
+            onSubmit={onSubmit}
             validationSchema={Yup.object({
-                email: Yup.string().required('This field is required').email('You have to insert a valid email'),
-                password: Yup.string().required('This field is required')
+                email: Yup.string()
+                    .required("Email is required")
+                    .email("You have to insert a valid email"),
+                password: Yup.string()
+                    .required("This field is required"),
             })}
         >
             {formikProps => (
-                <Form>
-                    <TextField displayName="Email" field="email" />
-                    <TextField displayName="Password" field="password" type="password" />
-
-                    <Button disabled={formikProps.isSubmitting} type="submit">Send</Button>
-                    <Link className="btn btn-secondary" to="/">Cancel</Link>
+                <Form className="grid gap-4">
+                    <TextField field="email" displayName="Email"/>
+                    <TextField field="password" displayName="Password" type="password"/>
+                    <div className="grid grid-flow-col justify-end gap-4">
+                        <Link to="/" color="secondary">Cancel</Link>
+                        <Button disabled={formikProps.isSubmitting} type="submit">{buttonText}</Button>
+                    </div>
                 </Form>
             )}
         </Formik>
-    )
-}
+    );
+};
 
-interface authFormProps{
-    model: userCredentials;
-    onSubmit(values: userCredentials, actions: FormikHelpers<userCredentials>): void;
-}
+
+export default AuthForm;

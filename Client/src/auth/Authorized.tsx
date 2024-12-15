@@ -1,5 +1,4 @@
-
-import React, {ReactElement, useContext, useEffect, useState} from "react";
+import React, {ReactElement, useContext, useEffect} from "react";
 import AuthenticationContext from "./AuthenticationContext";
 
 interface authorizedProps {
@@ -9,8 +8,8 @@ interface authorizedProps {
 }
 
 const Authorized: React.FC<authorizedProps> = ({ authorized, notAuthorized, role }) => {
-    const [isAuthorized, setIsAuthorized] = useState(true);
-    const {claims} = useContext(AuthenticationContext);
+    const [isAuthorized, setIsAuthorized] = React.useState(true);
+    const { claims } = useContext(AuthenticationContext);
 
     useEffect(() => {
         if (role) {

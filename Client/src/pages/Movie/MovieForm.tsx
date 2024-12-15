@@ -1,63 +1,65 @@
-import {Form, Formik, FormikHelpers} from "formik";
-import {movieCreationDTO} from "../../components/Movie/Movies.model";
-import React, {useState} from "react";
-import * as Yup from 'yup';
-import Button from "../../utils/Button";
-import {Link} from "react-router-dom";
-import TextField from "../../utils/TextField";
-import DateField from "../../utils/DateField";
-import ImageField from "../../utils/ImageField";
-import CheckboxField from "../../utils/CheckboxField";
-import MultipleSelector, {multipleSelectorModel} from "../../utils/MultipleSelector";
-import {genreDTO} from "../Genre/Genres.model";
-import {movieTheatreDTO} from "../MovieTheater/MovieTheater.model";
-import TypeAheadActors from "../../utils/TypeAheadActors";
-import {actorMovieDTO} from "../Actor/Actors.model";
-import MarkdownField from "../../utils/MarkdownField";
+import React, { useState } from "react";
+import { Form, Formik, FormikHelpers } from "formik";
+import { movieCreationDTO } from "../../components/Movie/movie.model";
+import * as Yup from "yup";
+import TextField from "../../components/Form/TextField";
+import Button from "../../components/Button";
+import Link from "../../components/Link";
+import DateField from "../../components/Form/DateField";
+import ImageField from "../../components/Form/ImageField";
+import CheckboxField from "../../components/Form/CheckboxField";
+import MultipleSelector, { multipleSelectorModel } from "../../components/Form/MultipleSelector";
+import { genreDTO } from "../genre/genre.model";
+import { movieTheaterDTO } from "../movieTheater/movieTheater.model";
+import TypeAheadActors from "../../components/Form/TypeAheadActors";
+import {actorMovieDTO} from "../actor/actors.model";
+import MarkdownField from "../../components/Form/MarkdownField";
+
 
 interface movieFormProps {
     model: movieCreationDTO;
     onSubmit(values: movieCreationDTO, actions: FormikHelpers<movieCreationDTO>): void;
     selectedGenres: genreDTO[];
     nonSelectedGenres: genreDTO[];
-    selectedMovieTheatres: movieTheatreDTO[];
-    nonSelectedMovieTheatres: movieTheatreDTO[];
+    selectedMovieTheatres: movieTheaterDTO[];
+    nonSelectedMovieTheatres: movieTheaterDTO[];
     selectedActors: actorMovieDTO[];
 }
 
-const MovieForm: React.FC<movieFormProps> = ({ model, onSubmit, selectedGenres, nonSelectedGenres, selectedMovieTheatres, nonSelectedMovieTheatres, selectedActors }) => {
+const MovieForm: React.FC<movieFormProps> = ({
+    model, onSubmit, selectedGenres, nonSelectedGenres, selectedMovieTheatres, nonSelectedMovieTheatres, selectedActors
+}) => {
+    const [selGenres, setSelGenres] = useState<multipleSelectorModel[]>(mapToModel(selectedGenres));
+    const [nonSelGenres, setNonSelGenres] = useState<multipleSelectorModel[]>(mapToModel(nonSelectedGenres));
 
-    const [selGenres, setSelectedGenres] = useState(mapToModel(selectedGenres));
-    const [selMovieTheatre, setSelectedMovieTheatre] = useState(mapToModel(selectedMovieTheatres));
-    const [selActors, setSelectedActors] = useState<actorMovieDTO[]>(selectedActors);
-    const [nonSelGenres, setNonSelectedGenres] = useState(mapToModel(nonSelectedGenres));
-    const [nonSelMovieTheatre, setNonSelectedMovieTheatre] = useState(mapToModel(nonSelectedMovieTheatres));
-    const [inTheatres, setInTheatres] = useState(model.inTheatres);
+    const [selMovieTheaters, setSelMovieTheaters] = useState<multipleSelectorModel[]>(mapToModel(selectedMovieTheatres));
+    const [nonSelMovieTheaters, setNonSelMovieTheaters] = useState<multipleSelectorModel[]>(mapToModel(nonSelectedMovieTheatres));
 
-    function mapToModel(items: {id: number, name: string}[]) : multipleSelectorModel[] {
+    const [selActors, setSelActors] = useState(selectedActors);
+
+    function mapToModel(items: { id: number, name: string }[]): multipleSelectorModel[] {
         return items.map(item => {
-           return { key: item.id, value: item.name }
+            return { key: item.id, value: item.name }
         });
     }
 
     return (
         <Formik
             initialValues={model}
-            onSubmit={(values, actions) => {
+            onSubmit={async (values, actions) => {
                 values.genresIds = selGenres.map(item => item.key);
-                values.movieTheatresIds = selMovieTheatre.map(item => item.key);
+                values.movieTheatersIds = selMovieTheaters.map(item => item.key);
                 values.actors = selActors;
-
-                onSubmit(values, actions);
+                await onSubmit(values, actions);
             }}
             validationSchema={Yup.object({
-                title: Yup.string().required('This field is required').firstLetterUppercase()
+                title: Yup.string().required("This field is required").firstLetterUppercase(),
             })}
         >
             {(formikProps) => (
-                <Form>
+                <Form className="grid gap-4 mb-10">
                     <TextField field="title" displayName="Title" />
-                    <CheckboxField field="inTheatres" displayName="In Theatres" inTheatres={inTheatres} onChange={(event) => setInTheatres(event.target.checked)} />
+                    <CheckboxField field="inTheaters" displayName="In Theaters" />
                     <TextField field="trailer" displayName="Trailer" />
                     <DateField field="releaseDate" displayName="Release Date" />
                     <ImageField field="poster" displayName="Poster" imageURL={model.posterURL} />
@@ -67,43 +69,47 @@ const MovieForm: React.FC<movieFormProps> = ({ model, onSubmit, selectedGenres, 
                         nonSelected={nonSelGenres}
                         selected={selGenres}
                         onChange={(selected, nonSelected) => {
-                            setSelectedGenres(selected);
-                            setNonSelectedGenres(nonSelected);
+                            setSelGenres(selected);
+                            setNonSelGenres(nonSelected);
                         }}
                     />
                     <MultipleSelector
-                        displayName="Movie Theatres"
-                        nonSelected={nonSelMovieTheatre}
-                        selected={selMovieTheatre}
+                        displayName="Movie Theaters"
+                        nonSelected={nonSelMovieTheaters}
+                        selected={selMovieTheaters}
                         onChange={(selected, nonSelected) => {
-                            setSelectedMovieTheatre(selected);
-                            setNonSelectedMovieTheatre(nonSelected);
+                            setSelMovieTheaters(selected);
+                            setNonSelMovieTheaters(nonSelected);
                         }}
                     />
                     <TypeAheadActors
                         displayName="Actors"
                         actors={selActors}
-                        onAdd={actors => setSelectedActors(actors)}
-                        onRemove={actors => setSelectedActors(actors)}
-                        listUI={ (actor: actorMovieDTO) =>
+                        onAdd={actors => setSelActors(actors)}
+                        onRemove={updatedActors => setSelActors(updatedActors)}
+                        listUI={(actor: actorMovieDTO) => (
                             <>
-                                {actor.name} / <input type="text" placeholder="Character" value={actor.character || ''} onChange={e => {
-                                    const index = selActors.findIndex(x => x.id === actor.id);
-
-                                    if (index !== -1) {
-                                        const actors = [...selActors];
-                                        actors[index].character = e.currentTarget.value;
-                                        setSelectedActors(actors);
+                                {actor.name} /
+                                <input
+                                    placeholder="Character"
+                                    type="text"
+                                    className="w-[250px] px-2 py-1 rounded border outline-none"
+                                    value={actor.character}
+                                    onChange={e =>
+                                        setSelActors(prev =>
+                                            prev.map(a =>
+                                                a.id === actor.id ? { ...a, character: e.target.value } : a
+                                            )
+                                        )
                                     }
-                                    else {
-                                        console.warn("Actor not found in the selectedActors list.");
-                                    }
-                                }} />
+                                />
                             </>
-                        }
+                        )}
                     />
-                    <Button disabled={formikProps.isSubmitting} type="submit">Save Changes</Button>
-                    <Link to="/genres" className="btn btn-secondary">Cancel</Link>
+                    <div className="grid grid-flow-col justify-end gap-4">
+                        <Link color="secondary" to="/genres">Cancel</Link>
+                        <Button disabled={formikProps.isSubmitting} type="submit">Save Changes</Button>
+                    </div>
                 </Form>
             )}
         </Formik>

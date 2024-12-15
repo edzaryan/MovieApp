@@ -3,7 +3,7 @@ export interface actorDTO {
     id: number;
     name: string;
     biography: string;
-    dateOfBirth: Date;
+    dateOfBirth: string;
     picture: string;
 }
 

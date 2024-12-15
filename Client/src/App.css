@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.typeahead > div {
+    /*background: orange !important;*/
+}
+
+.typeahead > div:first-of-type {
+    /*background: red !important;*/
+}
+
+.typeahead > div:first-of-type > input:first-of-type {
+    width: 100%;
+    outline: none;
+}
+
+.typeahead > div:last-of-type {
+    padding: 10px;
+    display: grid !important;
+    gap: 10px;
+    grid-auto-flow: row !important;
+    box-shadow: 4px 4px 10px rgba(200, 200, 200, 0.5);
+}
+
+.typeahead > div:last-of-type > a {
+    background-color: #ffffff;
+}
+
+.typeahead > div:last-of-type > a:hover {
+    background-color: aliceblue;
+}

@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\27d69a3c-1910-4f37-8ae4-0cd09430849d.jpg",
+      "PackagePath": "staticwebassets\\actors\\27d69a3c-1910-4f37-8ae4-0cd09430849d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\30fcf121-fa02-459a-a79b-1744a641a70e.jpg",
+      "PackagePath": "staticwebassets\\actors\\30fcf121-fa02-459a-a79b-1744a641a70e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\8941f1c1-d837-46e8-a677-90905699af2d.jpg",
+      "PackagePath": "staticwebassets\\actors\\8941f1c1-d837-46e8-a677-90905699af2d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\actors\\ea7a6724-5f01-4b19-8605-10c04a5f8271.jpg",
+      "PackagePath": "staticwebassets\\actors\\ea7a6724-5f01-4b19-8605-10c04a5f8271.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\052d47f8-ceee-4f4d-ba54-1bfdc8795281.png",
+      "PackagePath": "staticwebassets\\movies\\052d47f8-ceee-4f4d-ba54-1bfdc8795281.png"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e.jpg",
+      "PackagePath": "staticwebassets\\movies\\09a6cb9e-347a-4bf2-b3b6-4f9eee9d633e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\1956f7c9-0b0e-43a5-aa79-bf92758a5841.jpg",
+      "PackagePath": "staticwebassets\\movies\\1956f7c9-0b0e-43a5-aa79-bf92758a5841.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\33f9948c-c8c6-47a7-9523-ba81a6d616fd.jpg",
+      "PackagePath": "staticwebassets\\movies\\33f9948c-c8c6-47a7-9523-ba81a6d616fd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\3cf6b3e1-28a2-49ca-8fc1-d76556b599a7.jpg",
+      "PackagePath": "staticwebassets\\movies\\3cf6b3e1-28a2-49ca-8fc1-d76556b599a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\4e2913fd-3b12-483a-a9de-119977c1f1e4.jpg",
+      "PackagePath": "staticwebassets\\movies\\4e2913fd-3b12-483a-a9de-119977c1f1e4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\4f49953b-8265-42a5-bcc7-d9d7ae6d55d9.jpg",
+      "PackagePath": "staticwebassets\\movies\\4f49953b-8265-42a5-bcc7-d9d7ae6d55d9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\5451c999-6fde-48b5-aa02-c802dd31f0ca.jpg",
+      "PackagePath": "staticwebassets\\movies\\5451c999-6fde-48b5-aa02-c802dd31f0ca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\58ad5c42-61b2-455f-a359-11aa552a0d4d.jpg",
+      "PackagePath": "staticwebassets\\movies\\58ad5c42-61b2-455f-a359-11aa552a0d4d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\60af0c72-8eb2-4846-85ff-0b805cd4a8c3.jpg",
+      "PackagePath": "staticwebassets\\movies\\60af0c72-8eb2-4846-85ff-0b805cd4a8c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\614344c5-9d38-420a-8f90-5b7243be97b0.jpg",
+      "PackagePath": "staticwebassets\\movies\\614344c5-9d38-420a-8f90-5b7243be97b0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\84450c09-d68f-4347-9bcf-43e650057de7.jpg",
+      "PackagePath": "staticwebassets\\movies\\84450c09-d68f-4347-9bcf-43e650057de7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\c152100d-86b6-4a01-acea-30dbbc789d15.jpg",
+      "PackagePath": "staticwebassets\\movies\\c152100d-86b6-4a01-acea-30dbbc789d15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\e5c4475b-00ea-4c1f-88d9-0baf57463491.jpg",
+      "PackagePath": "staticwebassets\\movies\\e5c4475b-00ea-4c1f-88d9-0baf57463491.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\wwwroot\\movies\\e7cbb8ae-519b-4a38-9093-5e549a36ac5f.jpg",
+      "PackagePath": "staticwebassets\\movies\\e7cbb8ae-519b-4a38-9093-5e549a36ac5f.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MovieAppApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MovieAppApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MovieAppApi.props",
+      "PackagePath": "build\\MovieAppApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MovieAppApi.props",
+      "PackagePath": "buildMultiTargeting\\MovieAppApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MovieAppApi.props",
+      "PackagePath": "buildTransitive\\MovieAppApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

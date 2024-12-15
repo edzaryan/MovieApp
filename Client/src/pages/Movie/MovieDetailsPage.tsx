@@ -1,33 +1,34 @@
-import React, {useEffect, useState} from "react";
-import axios, {AxiosResponse} from "axios";
-import {Link, useParams} from "react-router-dom";
-import {movieDTO} from "../../components/Movie/Movies.model";
+import { useParams } from "react-router-dom";
+import {useEffect, useState} from "react";
+import axios, { AxiosResponse } from "axios";
+import {urlMovie, urlRating} from "../../endpoints";
+import { movieDTO } from "../../components/Movie/movie.model";
 import Loading from "../../utils/Loading";
+import Link from "../../components/Link";
 import ReactMarkdown from "react-markdown";
-import {coordinateDTO} from "../../utils/Coordinates.module";
-import Map from "../../utils/Map";
-import Ratings from "../../utils/Ratings";
+import coordinateDTO from "../../components/Map/coordinates.model";
+import Map from "../../components/Map/Map";
+import Rating from "../../components/Rating";
 import Swal from "sweetalert2";
 
-const MovieDetailsPage: React.FC = () => {
-    const {id} : any = useParams();
+
+const MovieDetailsPage = () => {
+    const {id}: any = useParams();
     const [movie, setMovie] = useState<movieDTO>();
 
     useEffect(() => {
-        axios.get(`/api/movies/${id}`)
+        axios.get(`${urlMovie}/${id}`)
             .then((response: AxiosResponse<movieDTO>) => {
                 response.data.releaseDate = new Date(response.data.releaseDate);
                 setMovie(response.data);
-            })
+            });
     }, [id]);
 
     function generateEmbeddedVideoURL(trailer: string): string {
-        if (!trailer) {
-            return '';
-        }
+        if (!trailer) return "";
 
-        let videoId = trailer.split('v=')[1];
-        const ampersandPosition = videoId.indexOf('&');
+        let videoId = trailer.split("v=")[1];
+        const ampersandPosition = videoId.indexOf("&");
         if (ampersandPosition !== -1) {
             videoId = videoId.substring(0, ampersandPosition);
         }
@@ -36,14 +37,14 @@ const MovieDetailsPage: React.FC = () => {
     }
 
     function transformCoordinates(): coordinateDTO[] {
-        if (movie?.movieTheatres) {
-            const coordinates = movie.movieTheatres.map(movieTheatre => {
-                return {
+        if (movie?.movieTheaters) {
+            const coordinates = movie.movieTheaters.map(movieTheatre => (
+                {
                     lat: movieTheatre.latitude,
                     lng: movieTheatre.longitude,
                     name: movieTheatre.name
                 } as coordinateDTO
-            });
+            ));
 
             return coordinates;
         }
@@ -52,81 +53,79 @@ const MovieDetailsPage: React.FC = () => {
     }
 
     function handleRate(rate: number) {
-        axios.post("/api/ratings", { rating: rate, movieId: id}).then(() => {
-           Swal.fire({ icon: "success", title: "Rating received" });
-        });
+        console.log({ rating: rate, movieId: id });
+        axios
+            .post(urlRating, { rating: rate, movieId: id })
+            .then(() => { Swal.fire({ icon: "success", title: "Rating received" }) });
     }
 
     return (
-        movie ? <div className="container">
-            <h2>{movie.title} ({movie.releaseDate.getFullYear()})</h2>
-            {
-                movie.genres?.map(genre =>
-                    <Link
-                        to={`/movie/filter?genreId=${genre.id}`}
-                        key={genre.id}
-                        style={{marginRight: "5px"}}
-                        className="btn btn-primary btn-sm rounded-pill">
-                        {genre.name}
-                    </Link>
-            )} | {movie.releaseDate.toDateString()}
-               | Your vote: <Ratings maximumValue={5} selectedValue={movie.userVote} onChange={handleRate} /> | Average Vote: {movie.averageVote}
-
-            <div style={{display: 'flex', marginTop: '1rem'}}>
-                <span style={{display: 'inline-block', marginRight: '1rem'}}>
-                    <img src={movie.poster} style={{width: '225px', height: '315px'}} alt="poster" />
-                </span>
-                {movie.trailer ? <div>
-                    <iframe
-                        title="youtube-trailer"
-                        width="560"
-                        height="315"
-                        src={generateEmbeddedVideoURL(movie.trailer)}
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    >
-                    </iframe>
-                </div> : null}
-            </div>
-
-            {movie.summary ? <div style={{marginTop: "1rem"}}>
-                <h3>Summary</h3>
-                <div>
-                    <ReactMarkdown>{movie.summary}</ReactMarkdown>
-                </div>
-            </div> : null}
-
-            {movie.actors && movie.actors.length > 0 ?
-                <div style={{marginTop: "1rem"}}>
-                    <h3>Actors</h3>
-                    <div style={{display: "flex", flexDirection: "column"}}>
-                        {movie.actors?.map(actor =>
-                            <div key={actor.id} style={{marginBottom: "2px"}}>
-                                <img
-                                    src={actor.picture}
-                                    style={{ width: "50px", verticalAlign: "middle" }}
-                                    alt="pic"
-                                />
-                                <span style={{
-                                    display: "inline-block",
-                                    width: "200px",
-                                    marginLeft: "1rem"
-                                }}>{actor.name}</span>
-                                <span style={{
-                                    display: "inline-block",
-                                    width: "45px"
-                                }}>...</span>
-                                <span>{actor.character}</span>
-                            </div>
-                        )}
+        movie
+            ? (
+                <div className="grid gap-5">
+                    <div className="text-3xl font-medium">{movie.title} ({movie.releaseDate.getFullYear()})</div>
+                    <div className="grid grid-flow-col justify-start gap-2 items-center">
+                        {
+                            movie.genres?.map(genre =>
+                                <Link to={`/movies/filter?genreId=${genre.id}`} key={genre.id} className="btn btn-primary btn-sm rounded-pill">
+                                    {genre.name}
+                                </Link>
+                            )
+                        }
+                        | { movie.releaseDate.toDateString() } |
+                        Your vote: <Rating maximumValue={5} selectedValue={movie.userVote} onChange={handleRate} /> |
+                        Average Vote: {movie.averageVote}
                     </div>
-                </div> : null }
-
-            {movie.movieTheatres && movie.movieTheatres.length > 0 ? <div>
-                <h2>Showing on</h2>
-                <Map coordinates={transformCoordinates()} readOnly={true} />
-            </div> : null}
-        </div> : <Loading />
+                    <div className="grid grid-flow-col justify-start gap-3">
+                        <img src={movie.poster} className="w-[225px] h-[315px]" alt="poster"/>
+                        {
+                            movie.trailer &&
+                                <div>
+                                    <iframe
+                                        title="youtube-trailer"
+                                        className="w-[560px] h-[315px]"
+                                        src={generateEmbeddedVideoURL(movie.trailer)}
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen />
+                                </div>
+                        }
+                    </div>
+                    {
+                        movie.summary &&
+                            <div className="mt-2 grid gap-5">
+                                <div className="text-xl font-medium">Summary</div>
+                                <div>
+                                    <ReactMarkdown>{movie.summary}</ReactMarkdown>
+                                </div>
+                            </div>
+                    }
+                    {
+                        movie.actors && movie.actors.length > 0 &&
+                            <div className="mt-2 grid gap-5">
+                                <div className="text-xl font-medium">Actors</div>
+                                <div className="grid grid-flow-col">
+                                    {
+                                        movie.actors?.map(actor =>
+                                            <div key={actor.id} className="grid grid-flow-col justify-start items-center gap-10 mb-1">
+                                                <img src={actor.picture} className="w-[70px]" alt="picture" />
+                                                <div>{actor.name}</div>
+                                                <div>{actor.character}</div>
+                                            </div>
+                                        )
+                                    }
+                                </div>
+                            </div>
+                    }
+                    {
+                        movie.movieTheaters && movie.movieTheaters.length > 0 &&
+                            <div className="mt-2 grid gap-5">
+                                <div className="text-xl font-medium">Showing on</div>
+                                <Map coordinates={transformCoordinates()} readOnly={true} />
+                            </div>
+                    }
+                </div>
+            )
+            : <Loading/>
     )
 }
 

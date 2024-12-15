@@ -1,22 +1,22 @@
 import { ReactElement, useEffect, useState } from "react";
-import axios, { AxiosResponse } from 'axios';
-import { Link } from 'react-router-dom';
-import Button from './Button';
-import RecordsPerPageSelect from './RecordsPerPageSelect';
-import Pagination from './Pagination';
-import GenericList from './GenericList';
-import customConfirm from './customConfirm';
+import axios, { AxiosResponse } from "axios";
+import Link from "../components/Link";
+import Pagination from "../components/Pagination";
+import RecordsPerPageSelect from "../components/RecordsPerPageSelect";
+import GenericList from "./GenericList";
+import Button from "../components/Button";
+import customConfirm from "./CustomConfirm";
 
-interface indexEntityProps<T> {
+
+interface entityProps<T> {
     url: string;
-    createURL?: string;
     title: string;
+    createURL?: string;
     entityName?: string;
-    children(entities: T[], buttons: (editUrl: string, id: number) => ReactElement): ReactElement;
+    children(entities: T[], buttons: (editURL: string, id: number) => ReactElement): ReactElement;
 }
 
-function IndexEntity<T>(props: indexEntityProps<T>) {
-
+function EntityPage<T>(props: entityProps<T>) {
     const [entities, setEntities] = useState<T[]>();
     const [totalAmountOfPages, setTotalAmountOfPages] = useState(0);
     const [recordsPerPage, setRecordsPerPage] = useState(5);
@@ -28,9 +28,11 @@ function IndexEntity<T>(props: indexEntityProps<T>) {
 
     function loadData() {
         axios
-            .get(props.url, { params: { page, recordsPerPage }})
+            .get(props.url, {
+                params: { page, recordsPerPage }
+            })
             .then((response: AxiosResponse<T[]>) => {
-                const totalAmountOfRecords = parseInt(response.headers['totalamountofrecords'], 10);
+                const totalAmountOfRecords = parseInt(response.headers["totalamountofrecords"], 10);
                 setTotalAmountOfPages(Math.ceil(totalAmountOfRecords / recordsPerPage));
                 setEntities(response.data);
             });
@@ -43,36 +45,48 @@ function IndexEntity<T>(props: indexEntityProps<T>) {
         }
         catch (error) {
             if (error && error.response) {
-                console.error(error.response.data);
+                console.log(error.response.data);
             }
         }
     }
 
-    const buttons = (editUrl: string, id: number) => <>
-        <Link className="btn btn-success" to={editUrl}>Edit</Link>
-        <Button className="btn btn-danger" onClick={() => customConfirm(() => deleteEntity(id))}>Delete</Button>
-    </>
+    const buttons = (editUrl: string, id: number) => (
+        <>
+            <Link className="mr-2" color="success" to={editUrl}>Edit</Link>
+            <Button
+                color="danger"
+                onClick={() => customConfirm(() => deleteEntity(id))}>
+                Delete
+            </Button>
+        </>
+    );
 
     return (
         <>
-            <h3>{props.title}</h3>
-            {props.createURL ?
-                <Link className="btn btn-primary" to={props.createURL ?? ''}>Create {props.entityName}</Link> :
-                null
-            }
-            <RecordsPerPageSelect onChange={amountOfRecords => {
-                setPage(1);
-                setRecordsPerPage(amountOfRecords);
-            }} />
-            <Pagination currentPage={page} totalAmountOfPages={totalAmountOfPages} onChange={newPage => setPage(newPage)}/>
-            <GenericList list={entities}>
-                <table className="table table-striped">
-                    {props.children(entities!, buttons)}
-                </table>
-            </GenericList>
+            <div className="grid grid-flow-col justify-between items-center">
+                <div className="text-3xl font-medium">{props.title}</div>
+                {props.createURL && <Link to={props.createURL}>Create {props.entityName}</Link>}
+            </div>
+            <div className="grid grid-flow-col justify-end gap-5">
+                <Pagination
+                    currentPage={page}
+                    totalAmountOfPages={totalAmountOfPages}
+                    onChange={newPage => setPage(newPage)} />
+                <RecordsPerPageSelect onChange={amountOfRecords => {
+                    setPage(1);
+                    setRecordsPerPage(amountOfRecords);
+                }} />
+            </div>
+            <div>
+                <GenericList list={entities}>
+                    <div className="w-full">
+                        {props.children(entities!, buttons)}
+                    </div>
+                </GenericList>
+            </div>
         </>
     )
 }
 
-export default IndexEntity;
+export default EntityPage;
 

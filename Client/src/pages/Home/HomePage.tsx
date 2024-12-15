@@ -1,35 +1,41 @@
-import React, { useEffect, useState } from 'react';
-import MovieList from '../../components/Movie/MovieList';
+import React, { useEffect, useState } from "react";
+import axios, { AxiosResponse } from "axios";
+import MovieList from "../../components/Movie/MovieList";
+import { homePageDTO } from "../../components/Movie/movie.model";
+import { urlMovie } from "../../endpoints";
 import AlertContext from "../../utils/AlertContext";
-import { homePageDTO } from '../../components/Movie/Movies.model';
-import axios, {AxiosResponse} from "axios";
-
-const App: React.FC = () => {
-
-  const [movies, setMovies] = useState<homePageDTO>({});
-
-  useEffect(() => {
-      loadData();
-  }, []);
-
-  function loadData() {
-      axios.get("/api/movies").then((response: AxiosResponse<homePageDTO>) => {
-          setMovies(response.data);
-      });
-  }
 
 
-  return (
-    <div className="container">
-        <AlertContext.Provider value={() => loadData()}>
-            <h3>In Theaters</h3>
-            <MovieList movies={movies.inTheatres} />
+const HomePage = () => {
+    const [movies, setMovies] = useState<homePageDTO>({});
 
-            <h3>Upcoming Releases</h3>
-            <MovieList movies={movies.upcomingReleases} />
+    useEffect(() => {
+        loadData();
+    }, []);
+
+    function loadData() {
+        axios.get(urlMovie)
+            .then((response: AxiosResponse<homePageDTO>) => {
+                setMovies(response.data);
+            });
+    }
+
+    return (
+        <AlertContext.Provider value={() => {
+            loadData();
+        }}>
+            <div className="grid gap-10">
+                <div className="grid gap-4">
+                    <div className="text-2xl font-medium">In Theatres</div>
+                    <MovieList movies={movies.inTheaters}/>
+                </div>
+                <div className="grid gap-4">
+                    <div className="text-2xl font-medium">Upcoming Releases</div>
+                    <MovieList movies={movies.upcomingReleases}/>
+                </div>
+            </div>
         </AlertContext.Provider>
-    </div>
-  );
+    )
 }
 
-export default App;
+export default HomePage;

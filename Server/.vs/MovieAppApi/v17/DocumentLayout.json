@@ -1,0 +1,652 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\filtermoviesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\filtermoviesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\controllers\\movietheatercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\controllers\\movietheatercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\movietheatersmovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\movietheatersmovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\ratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\ratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\helpers\\typebinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\helpers\\typebinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\helpers\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\helpers\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\helpers\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\helpers\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\helpers\\filemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\helpers\\filemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\movietheater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\movietheater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\moviesgenres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\moviesgenres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\moviesactors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\moviesactors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\paginationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\paginationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\movietheaterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\movietheaterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\movietheatercreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\movietheatercreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\moviesactorscreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\moviesactorscreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\movieputgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\movieputgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\moviepostgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\moviepostgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\moviecreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\moviecreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\homepagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\homepagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\actorsmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\actorsmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\actordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\actordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\dtos\\actorcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\dtos\\actorcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\apibehavior\\badrequestbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\apibehavior\\badrequestbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67E89192-3E09-471D-8D5A-1982CDA9C322}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Program.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Program.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Program.cs",
+              "RelativeToolTip": "MovieAppApi\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwC0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:28:08.367Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:12:14.565Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MovieAppApi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:44:21.898Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieAppApi\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:23:26.699Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RatingController.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\RatingController.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Controllers\\RatingController.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\RatingController.cs",
+              "RelativeToolTip": "MovieAppApi\\Controllers\\RatingController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwB0AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T16:54:07.232Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\Rating.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\Rating.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\Rating.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:12:36.063Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Helpers\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "MovieAppApi\\Helpers\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:13:42.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "MovieAppApi\\Controllers\\GenreController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:39:45.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ActorController.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\ActorController.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Controllers\\ActorController.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\ActorController.cs",
+              "RelativeToolTip": "MovieAppApi\\Controllers\\ActorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:39:18.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieTheaterController.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\MovieTheaterController.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Controllers\\MovieTheaterController.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Controllers\\MovieTheaterController.cs",
+              "RelativeToolTip": "MovieAppApi\\Controllers\\MovieTheaterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:40:02.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilterMoviesDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\FilterMoviesDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\FilterMoviesDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\FilterMoviesDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\FilterMoviesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:41:11.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\Genre.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\Genre.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\Genre.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:43:22.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovieTheatersMovies.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\MovieTheatersMovies.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\MovieTheatersMovies.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\MovieTheatersMovies.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\MovieTheatersMovies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:43:54.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HttpContextExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\HttpContextExtensions.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Helpers\\HttpContextExtensions.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\HttpContextExtensions.cs",
+              "RelativeToolTip": "MovieAppApi\\Helpers\\HttpContextExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:15:16.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RatingDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\RatingDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\RatingDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\RatingDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\RatingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:42:33.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TypeBinder.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\TypeBinder.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Helpers\\TypeBinder.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\TypeBinder.cs",
+              "RelativeToolTip": "MovieAppApi\\Helpers\\TypeBinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:15:56.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IQueryableExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\IQueryableExtensions.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Helpers\\IQueryableExtensions.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\IQueryableExtensions.cs",
+              "RelativeToolTip": "MovieAppApi\\Helpers\\IQueryableExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:50:39.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserCredentials.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\UserCredentials.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\UserCredentials.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\UserCredentials.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\UserCredentials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:42:38.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FileManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\FileManagementService.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Helpers\\FileManagementService.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Helpers\\FileManagementService.cs",
+              "RelativeToolTip": "MovieAppApi\\Helpers\\FileManagementService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:44:42.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MovieTheater.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\MovieTheater.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\MovieTheater.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\MovieTheater.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\MovieTheater.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:43:48.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MoviesGenres.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\MoviesGenres.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\MoviesGenres.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\MoviesGenres.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\MoviesGenres.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:43:43.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MoviesActors.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\MoviesActors.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\MoviesActors.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\MoviesActors.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\MoviesActors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:43:36.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\Movie.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:43:29.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\Actor.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\Actor.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\Entities\\Actor.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\Actor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:42:47.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PaginationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\PaginationDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\PaginationDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\PaginationDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\PaginationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:42:24.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MovieTheaterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MovieTheaterDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\MovieTheaterDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MovieTheaterDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\MovieTheaterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:42:14.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MovieTheaterCreationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MovieTheaterCreationDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\MovieTheaterCreationDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MovieTheaterCreationDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\MovieTheaterCreationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:42:07.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MoviesActorsCreationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MoviesActorsCreationDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\MoviesActorsCreationDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MoviesActorsCreationDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\MoviesActorsCreationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:42:01.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MoviePutGetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MoviePutGetDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\MoviePutGetDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MoviePutGetDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\MoviePutGetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:41:53.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MoviePostGetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MoviePostGetDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\MoviePostGetDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MoviePostGetDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\MoviePostGetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:41:47.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MovieCreationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MovieCreationDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\MovieCreationDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\MovieCreationDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\MovieCreationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:41:34.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HomePageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\HomePageDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\HomePageDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\HomePageDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\HomePageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:41:27.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GenreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\GenreDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\GenreDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\GenreDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\GenreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:41:22.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ActorsMovieDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\ActorsMovieDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\ActorsMovieDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\ActorsMovieDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\ActorsMovieDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:40:57.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ActorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\ActorDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\ActorDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\ActorDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\ActorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:40:51.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ActorCreationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\ActorCreationDTO.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\DTOs\\ActorCreationDTO.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\DTOs\\ActorCreationDTO.cs",
+              "RelativeToolTip": "MovieAppApi\\DTOs\\ActorCreationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:40:44.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BadRequestBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\APIBehavior\\BadRequestBehavior.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\APIBehavior\\BadRequestBehavior.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\APIBehavior\\BadRequestBehavior.cs",
+              "RelativeToolTip": "MovieAppApi\\APIBehavior\\BadRequestBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:11:13.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieAppApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\appsettings.json",
+              "RelativeToolTip": "MovieAppApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T00:38:48.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MovieAppApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\Server\\MovieAppApi\\appsettings.Development.json",
+              "RelativeToolTip": "MovieAppApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T00:38:27.876Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

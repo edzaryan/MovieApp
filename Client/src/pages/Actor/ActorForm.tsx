@@ -1,13 +1,14 @@
-import {Form, Formik, FormikHelpers} from "formik";
-import {actorCreationDTO} from "./Actors.model";
-import TextField from "../../utils/TextField";
-import Button from "../../utils/Button";
-import {Link} from "react-router-dom";
-import * as Yup from "yup";
-import DateField from "../../utils/DateField";
 import React from "react";
-import ImageField from "../../utils/ImageField";
-import MarkdownField from "../../utils/MarkdownField";
+import {Form, Formik, FormikHelpers} from "formik";
+import {actorCreationDTO} from "./actors.model";
+import TextField from "../../components/Form/TextField";
+import Button from "../../components/Button";
+import Link from "../../components/Link";
+import * as Yup from "yup";
+import DateField from "../../components/Form/DateField";
+import ImageField from "../../components/Form/ImageField";
+import MarkdownField from "../../components/Form/MarkdownField";
+
 
 interface actorFormProps {
     model: actorCreationDTO;
@@ -20,18 +21,21 @@ const ActorForm: React.FC<actorFormProps> = ({ model, onSubmit }) => {
             initialValues={model}
             onSubmit={onSubmit}
             validationSchema={Yup.object({
-                name: Yup.string().required('This field is required').firstLetterUppercase(),
-                dateOfBirth: Yup.date().nullable().required('This field is required')
+                name: Yup.string().required("This field is required").firstLetterUppercase(),
+                dateOfBirth: Yup.date().nullable().required("This field is required")
             })}
         >
             {(formikProps) => (
-                <Form>
+                <Form className="grid gap-4 mb-10">
                     <TextField field="name" displayName="Name" />
                     <DateField field="dateOfBirth" displayName="Date of Birth" />
-                    <ImageField displayName="Picture" field="picture" imageURL={model.pictureURL} />
-                    <MarkdownField displayName="Biography" field="biography" />
-                    <Button type="submit" disabled={formikProps.isSubmitting}>Save Change</Button>
-                    <Link to="/actors" className="btn btn-secondary">Cancel</Link>
+                    <ImageField field="picture" displayName="Picture" imageURL={model.pictureURL} />
+                    <MarkdownField field="biography" displayName="Biography" />
+
+                    <div className="grid grid-flow-col justify-end gap-4">
+                        <Link to="/actors" color="secondary">Cancel</Link>
+                        <Button type="submit" disabled={formikProps.isSubmitting}>Save Change</Button>
+                    </div>
                 </Form>
             )}
         </Formik>
